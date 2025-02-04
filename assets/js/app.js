@@ -228,14 +228,14 @@ const AboutUsComponent={
                     img:"assets/img/about/lucia-v.webp",
                     name:"Lucia Vazquez",
                     position:"Founder, Eleven Digital",
-                    description_p1:"Lucía is a seasoned digital marketing expert with over 7 years of experience, including a role at Google as a Business Data Analyst. As the founder of Eleven Digital, she specializes in Paid Media and data-driven strategies, helping businesses scale through impactful campaigns.",
-                    description_p2:"With an MBA and a degree in Public Relations, Lucía is skilled in platforms like Google Ads, Facebook Ads, and LinkedIn Ads, as well as analytics tools like Google Analytics and Data Studio. Her leadership and expertise drive innovative solutions in the digital space.",},
+                    description_p1:"Lucia is a seasoned digital marketing expert with over 7 years of experience, including a role at Google as a Business Data Analyst. As the founder of Eleven Digital, she specializes in Paid Media and data-driven strategies, helping businesses scale through impactful campaigns.",
+                    description_p2:"With an MBA and a degree in Public Relations, Lucia is skilled in platforms like Google Ads, Facebook Ads, and LinkedIn Ads, as well as analytics tools like Google Analytics and Data Studio. Her leadership and expertise drive innovative solutions in the digital space.",},
                 {
                     img:"assets/img/about/matias-m.webp",
                     name:"Matias Munoz",
                     position:"Co-Founder, Eleven Digital",
-                    description_p1:"Matías Muñoz is a Data Analyst with expertise in Python, Power BI, Google Ads, and analytics tools like GTM and Looker Studio. Currently, he works as Growth Data Lead at Super, blending data from multiple platforms and presenting insights through dashboards.",
-                    description_p2:"He has prior experience in content analysis at MRM/McCann and software development, specializing in Django, Flutter, and WordPress. Matías holds an Associate Degree in Software Development and is pursuing a Bachelor’s in Data Science.",},
+                    description_p1:"Matias Muñoz is a Data Analyst with expertise in Python, Power BI, Google Ads, and analytics tools like GTM and Looker Studio. Currently, he works as Growth Data Lead at Super, blending data from multiple platforms and presenting insights through dashboards.",
+                    description_p2:"He has prior experience in content analysis at MRM/McCann and software development, specializing in Django, Flutter, and WordPress. Matias holds an Associate Degree in Software Development and is pursuing a Bachelor’s in Data Science.",},
                 {
                     img:"assets/img/about/natalia.webp",
                     name:"Natalia Rocco",
@@ -246,7 +246,7 @@ const AboutUsComponent={
 const ContactComponent={
     template:`
     <div id="contact-box">
-        <form action="https://formsubmit.co/info@elevendigital.com.ar" method="post">
+        <form action="https://formsubmit.co/info@elevendigital.com.ar" method="POST">
             <div>
                 <input type="text" name="full-name" placeholder="Full Name" title="Please enter your full name" required>
                 <input type="tel" name="phone-numer" placeholder="Phone Number" title="Please enter your phone number" required>
@@ -257,7 +257,7 @@ const ContactComponent={
             <div>
                 <textarea name="message" id="" placeholder="Message" title="Please enter a message" required></textarea>
             </div>
-            <button class="btn">Contact</button>
+            <button class="btn" type="submit">Contact</button>
             <input type="hidden" name="_subject" value="Consulta sitio web USA"><!-- modificar el valor -->
             <tipo de entrada="oculto" nombre="_cc" valor=""> <!-- en caso de querer enviar una copia a otro mail -->
             <input type="hidden" name="_captcha" value="true"> 
