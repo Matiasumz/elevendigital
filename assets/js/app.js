@@ -246,7 +246,7 @@ const AboutUsComponent={
 const ContactComponent={
     template:`
     <div id="contact-box">
-        <form action="https://formsubmit.co/info@elevendigital.com.ar" method="POST">
+        <form action="https://formsubmit.co/info@elevendigital.com.ar" method="POST"/>
             <div>
                 <input type="text" name="full-name" placeholder="Full Name" title="Please enter your full name" required>
                 <input type="tel" name="phone-numer" placeholder="Phone Number" title="Please enter your phone number" required>
