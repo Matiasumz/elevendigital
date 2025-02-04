@@ -259,7 +259,6 @@ const ContactComponent={
             </div>
             <button class="btn" type="submit">Contact</button>
             <input type="hidden" name="_subject" value="Consulta sitio web USA"><!-- modificar el valor -->
-            <tipo de entrada="oculto" nombre="_cc" valor=""> <!-- en caso de querer enviar una copia a otro mail -->
             <input type="hidden" name="_captcha" value="true"> 
             <input type="hidden" name="_next" value="www.elevendigi.com"><!-- link para volver a la pagina -->
         </form>
