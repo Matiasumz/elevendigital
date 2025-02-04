@@ -246,7 +246,7 @@ const AboutUsComponent={
 const ContactComponent={
     template:`
     <div id="contact-box">
-        <form action="https://formsubmit.co/info@elevendigital.com.ar" method="POST"/>
+        <form action="https://formsubmit.co/info@elevendigital.com.ar" method="POST">
             <div>
                 <input type="text" name="full-name" placeholder="Full Name" title="Please enter your full name" required>
                 <input type="tel" name="phone-numer" placeholder="Phone Number" title="Please enter your phone number" required>
@@ -258,7 +258,7 @@ const ContactComponent={
                 <textarea name="message" id="" placeholder="Message" title="Please enter a message" required></textarea>
             </div>
             <input type="hidden" name="_subject" value="Consulta sitio web USA"><!-- modificar el valor -->
-            <input type="hidden" name="_next" value="www.elevendigi.com"><!-- link para volver a la pagina -->
+            <input type="hidden" name="_next" value="https://www.elevendigi.com"><!-- link para volver a la pagina -->
             <button class="btn" type="submit">Contact</button>
         </form>
         <section id="social-networks">
