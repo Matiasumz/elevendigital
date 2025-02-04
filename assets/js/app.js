@@ -16,7 +16,7 @@ const HeaderComponent={
             <a href="/#services" style="width: 120px;">Services</a>
             <a href="/#case-studies" style="width: 150px;">Case studies</a>
             <a href="/#about-us" style="width: 130px;">About us</a>
-            <a href="#contact" style="width: 120px;">Contact</a>
+            <a href="#contact" style="width: 120px;" id="a-last">Contact</a>
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 512.015 512.015" style="enable-background:new 0 0 512 512" xml:space="preserve" class="" fill="currentColor" id="icon-x"><g><path d="M298.594 256.011 503.183 51.422c11.776-11.776 11.776-30.81 0-42.586s-30.81-11.776-42.586 0L256.008 213.425 51.418 8.836C39.642-2.94 20.608-2.94 8.832 8.836s-11.776 30.81 0 42.586l204.589 204.589L8.832 460.6c-11.776 11.776-11.776 30.81 0 42.586a30.034 30.034 0 0 0 21.293 8.824c7.71 0 15.42-2.952 21.293-8.824l204.589-204.589 204.589 204.589a30.034 30.034 0 0 0 21.293 8.824c7.71 0 15.42-2.952 21.293-8.824 11.776-11.776 11.776-30.81 0-42.586L298.594 256.011z" opacity="1" class=""></path></g></svg>
         </nav>
     </header>
@@ -234,7 +234,7 @@ const AboutUsComponent={
                     img:"assets/img/about/matias-m.webp",
                     name:"Matias Munoz",
                     position:"Co-Founder, Eleven Digital",
-                    description_p1:"Matias Muñoz is a Data Analyst with expertise in Python, Power BI, Google Ads, and analytics tools like GTM and Looker Studio. Currently, he works as Growth Data Lead at Super, blending data from multiple platforms and presenting insights through dashboards.",
+                    description_p1:"Matias Munoz is a Data Analyst with expertise in Python, Power BI, Google Ads, and analytics tools like GTM and Looker Studio. Currently, he works as Growth Data Lead at Super, blending data from multiple platforms and presenting insights through dashboards.",
                     description_p2:"He has prior experience in content analysis at MRM/McCann and software development, specializing in Django, Flutter, and WordPress. Matias holds an Associate Degree in Software Development and is pursuing a Bachelor’s in Data Science.",},
                 {
                     img:"assets/img/about/natalia.webp",
