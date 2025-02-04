@@ -257,10 +257,9 @@ const ContactComponent={
             <div>
                 <textarea name="message" id="" placeholder="Message" title="Please enter a message" required></textarea>
             </div>
-            <button class="btn" type="submit">Contact</button>
             <input type="hidden" name="_subject" value="Consulta sitio web USA"><!-- modificar el valor -->
-            <!--<input type="hidden" name="_captcha" value="true">  -->
             <input type="hidden" name="_next" value="www.elevendigi.com"><!-- link para volver a la pagina -->
+            <button class="btn" type="submit">Contact</button>
         </form>
         <section id="social-networks">
             <a href="mailto:info@elevendigital.com.ar"><img src="/assets/svg/iconos/correo.svg" alt="" width="18px" height="18px" id=icon-correo>Info@elevendigital.com.ar</a>
