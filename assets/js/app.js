@@ -259,7 +259,7 @@ const ContactComponent={
             </div>
             <button class="btn" type="submit">Contact</button>
             <input type="hidden" name="_subject" value="Consulta sitio web USA"><!-- modificar el valor -->
-            <input type="hidden" name="_captcha" value="true"> 
+            <!--<input type="hidden" name="_captcha" value="true">  -->
             <input type="hidden" name="_next" value="www.elevendigi.com"><!-- link para volver a la pagina -->
         </form>
         <section id="social-networks">
