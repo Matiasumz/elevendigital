@@ -125,7 +125,7 @@ const CaseStudiesComponent={
                     ],
                     link:"case-study/batik-boutik.html",},
                 {
-                    img:"assets/img/case-studies/Ble-lips.webp",
+                    img:"assets/img/case-studies/ble-lips.webp",
                     case:"Ble LIPS - Transforming Lip Care with Natural Elegance",
                     services:[
                         "Transforming Lip Care",
@@ -226,13 +226,13 @@ const AboutUsComponent={
             people:[
                 {
                     img:"assets/img/about/lucia-v.webp",
-                    name:"Lucía Vázquez",
+                    name:"Lucia Vazquez",
                     position:"Founder, Eleven Digital",
                     description_p1:"Lucía is a seasoned digital marketing expert with over 7 years of experience, including a role at Google as a Business Data Analyst. As the founder of Eleven Digital, she specializes in Paid Media and data-driven strategies, helping businesses scale through impactful campaigns.",
                     description_p2:"With an MBA and a degree in Public Relations, Lucía is skilled in platforms like Google Ads, Facebook Ads, and LinkedIn Ads, as well as analytics tools like Google Analytics and Data Studio. Her leadership and expertise drive innovative solutions in the digital space.",},
                 {
                     img:"assets/img/about/matias-m.webp",
-                    name:"Matías Muñoz",
+                    name:"Matias Munoz",
                     position:"Co-Founder, Eleven Digital",
                     description_p1:"Matías Muñoz is a Data Analyst with expertise in Python, Power BI, Google Ads, and analytics tools like GTM and Looker Studio. Currently, he works as Growth Data Lead at Super, blending data from multiple platforms and presenting insights through dashboards.",
                     description_p2:"He has prior experience in content analysis at MRM/McCann and software development, specializing in Django, Flutter, and WordPress. Matías holds an Associate Degree in Software Development and is pursuing a Bachelor’s in Data Science.",},
@@ -246,7 +246,7 @@ const AboutUsComponent={
 const ContactComponent={
     template:`
     <div id="contact-box">
-        <form action="https://formsubmit.co/hola@elevendigital.com.ar" method="post">
+        <form action="https://formsubmit.co/info@elevendigital.com.ar" method="post">
             <div>
                 <input type="text" name="full-name" placeholder="Full Name" title="Please enter your full name" required>
                 <input type="tel" name="phone-numer" placeholder="Phone Number" title="Please enter your phone number" required>
@@ -261,10 +261,10 @@ const ContactComponent={
             <input type="hidden" name="_subject" value="Consulta sitio web USA"><!-- modificar el valor -->
             <tipo de entrada="oculto" nombre="_cc" valor=""> <!-- en caso de querer enviar una copia a otro mail -->
             <input type="hidden" name="_captcha" value="true"> 
-            <input type="hidden" name="_next" value="www.elevendigital.com"><!-- link para volver a la pagina -->
+            <input type="hidden" name="_next" value="www.elevendigi.com"><!-- link para volver a la pagina -->
         </form>
         <section id="social-networks">
-            <a href="mailto:Info@elevendigital.com.ar"><img src="/assets/svg/iconos/correo.svg" alt="" width="18px" height="18px" id=icon-correo>Info@elevendigital.com.ar</a>
+            <a href="mailto:info@elevendigital.com.ar"><img src="/assets/svg/iconos/correo.svg" alt="" width="18px" height="18px" id=icon-correo>Info@elevendigital.com.ar</a>
             <a href="https://www.linkedin.com/company/eleven-digital-ar/"><img src="/assets/svg/iconos/linkedin.svg" alt="" width="18px" height="18px"> /eleven-digital-ar</a>
             <a href="https://www.instagram.com/elevendigitalen"><img src="/assets/svg/iconos/ig.svg" alt="" width="18px" height="18px"> /elevendigitalen</a>
         </section>

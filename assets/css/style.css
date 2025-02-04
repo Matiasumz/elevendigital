@@ -333,7 +333,7 @@ h1{
     z-index: 2;
 }
 #services h2{
-    padding: 0px 15%;
+    padding: 0px 15% 2%;
 }
 #services > .btn-contact{
     margin: 0px auto 0px auto;
@@ -345,7 +345,8 @@ h1{
 #services-box h3{
     margin-bottom: 20px;
     padding: 0px 15%;
-    color: var(--color_4);
+    /* color: var(--color_4); */
+    color: var(--color_1);
     font-family:'Open Sans';
     font-size: 40px;
     text-transform: uppercase;
@@ -1035,7 +1036,6 @@ h1{
 }
 #people-box section p{
     color: var(--color_3);
-    text-align: justify;
 }
 @media (max-width: 1440px){
     #about-us{
